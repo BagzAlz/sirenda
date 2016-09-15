@@ -1,0 +1,149 @@
+#printTiket{
+margin-left:55px;
+}
+.c2{ 
+min-width:620px;
+max-width:620px;
+margin-top:37px;
+}
+
+#tabel{min-width:650px;min-height:270px; }
+#img{
+position:absolute;
+z-index:-1; 
+width:650px;
+margin-left:-5px;
+min-height:250px; 
+max-height:250px; 
+}
+
+ .ribbontd {
+ text-shadow: 0px 0px 1px #333;
+ font-size: 23px !important;
+ width: 75%;
+ position: relative;
+ //background-color: #1daaeb;
+ color: #fff;
+ text-align: center !important;
+ padding: 0.6em 0.6em !important;
+ margin: 0.3em auto 3em;
+}
+
+.ribbontd:before, .ribbontd:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+// border: 1.5em solid #148ec7;
+ z-index: -1;
+}
+.ribbontd:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbontd:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbontd-content {
+ color:#fff;
+}
+.ribbontd .ribbontd-content:before, .ribbontd .ribbontd-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+// border-style: solid;
+// border-color: #1077a7 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbontd .ribbontd-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbontd .ribbontd-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+
+}
+.cv { position: relative; z-index: 1; }
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('f/font.eot');
+	src: url('f/font.eot?iefix') format('eot'),
+	     url('f/font.woff') format('woff'),
+	     url('f/font.ttf') format('truetype'),
+	     url('f/font.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'f';
+	src: url('f/f.eot');
+	src: url('f/f.eot?iefix') format('eot'),
+	     url('f/f.woff') format('woff'),
+	     url('f/f.ttf') format('truetype'),
+	     url('f/f.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'u';
+	src: url('f/u.eot');
+	src: url('f/u.eot?iefix') format('eot'),
+	     url('f/u.woff') format('woff'),
+	     url('f/u.ttf') format('truetype'),
+	     url('f/u.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 's';
+	src: url('f/s.eot');
+	src: url('f/s.eot?iefix') format('eot'),
+	     url('f/s.woff') format('woff'),
+	     url('f/s.ttf') format('truetype'),
+	     url('f/s.svg#webfont') format('svg');
+}
+.ucapan{ font-family: 'MyWebFont', Arial, sans-serif;font-size:25px;color:#009999; }
+.vertikal{
+	color:#333;
+	border:0px solid red;
+	white-space:nowrap;
+	bottom:0;
+	width:20px;
+	height:20px;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+.place{
+margin-top:-50px;
+max-width:500px;
+}
+.f{
+font-family: 'f', Arial, sans-serif;
+}
+.sadow{
+text-shadow: 0px 0px 0.5px #333;
+}
+.cream{
+color:black;
+}
+.uni
+{
+font-family: 'u', Arial, sans-serif;
+}
+.date{
+float:right;
+margin-top:-90px;
+margin-right:35px;
+font-family: 'u', Arial, sans-serif;
+color:black;
+}
+.suport{
+font-family: 's', Arial, sans-serif;
+margin-top:10px;
+}
